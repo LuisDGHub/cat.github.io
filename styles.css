@@ -6,8 +6,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #141414; /* Dark theme background */
-    color: #f0f0f0; /* Light text color */
+    background-color: #141414; 
+    color: #f0f0f0; 
 }
 
 header {
@@ -15,8 +15,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #1c1c1c; /* Darker header */
-    border-bottom: 2px solid #333; /* Subtle border for separation */
+    background-color: #1c1c1c; 
+    border-bottom: 2px solid #333; 
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -34,7 +34,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #ffcc00; /* Highlight color */
+    color: #ffcc00; 
 }
 
 main {
@@ -53,34 +53,34 @@ ul li {
     margin-bottom: 10px;
 }
 .cat-breeds img {
-    width: 100%; /* Makes images responsive to container */
-    max-width: 500px; /* Limits maximum width */
-    border-radius: 8px; /* Adds subtle rounded corners */
+    width: 100%; 
+    max-width: 500px; 
+    border-radius: 8px; 
 }
 
 .gallery {
     display: flex;
-    justify-content: flex-start; /* Align images to the start */
+    justify-content: flex-start; 
     flex-wrap: wrap;
-    gap: 5px;  /* Reduced gap between images */
-    padding: 0 10px;  /* Added slight padding on the sides to pull images closer */
+    gap: 5px;  
+    padding: 0 10px;  
 }
 
 .gallery img {
-    width: 24%;  /* Reduced width to make images smaller */
+    width: 24%;  
     border-radius: 8px;
-    transition: transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+    transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .gallery img:hover {
     transform: scale(1.05);
-    filter: brightness(90%); /* Darken image on hover */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Adding a shadow effect */
+    filter: brightness(90%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); 
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1c1c1c; /* Dark footer */
+    background-color: #1c1c1c; 
     color: #f0f0f0;
 }
