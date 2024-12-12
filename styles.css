@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414; /* Dark theme background */
+    color: #f0f0f0; /* Light text color */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1c1c1c; /* Darker header */
+    border-bottom: 2px solid #333; /* Subtle border for separation */
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffcc00; /* Highlight color */
+}
+
+main {
+    padding: 40px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    font-weight: 600;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+.cat-breeds img {
+    width: 100%; /* Makes images responsive to container */
+    max-width: 500px; /* Limits maximum width */
+    border-radius: 8px; /* Adds subtle rounded corners */
+}
+
+.gallery {
+    display: flex;
+    justify-content: flex-start; /* Align images to the start */
+    flex-wrap: wrap;
+    gap: 5px;  /* Reduced gap between images */
+    padding: 0 10px;  /* Added slight padding on the sides to pull images closer */
+}
+
+.gallery img {
+    width: 24%;  /* Reduced width to make images smaller */
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    filter: brightness(90%); /* Darken image on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Adding a shadow effect */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c; /* Dark footer */
+    color: #f0f0f0;
+}
